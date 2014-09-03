@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>Profile</title>
+
+  <style type="text/css">
+
+    /*.coryPhoto  used to create a hover over effect, needs some formatting though.
+    {
+      width:90px;
+      height:90px;
+      background-image:url(/images/face.jpg);
+    
+    }
+
+      .coryPhoto:hover
+      {
+        width: 90px;
+        height: 90px;
+        background-image: url(/images/smallguitar.jpg);
+      }*/
+
+  </style>
+
+</head>
+<body>
+  <h1>All about Cory</h1>
+
+  <!--added link to main page when you click on my image.  also set the width and height just for fun-->
+  <a href="mainpage.html"> <img src="images/face.jpg" alt="image not supported" height="90" width="90" /></a>
+  <div class="coryPhoto">
+    
+  </div>
+
+
+  <p>Well, I'm looking for a job.  Click to view my resume.</p>
+  <a href="docs/resume.txt">Resume</a>
+  <br />
+  <br />
+  <!--add image below, 'usemap' lets browser know you can click on different areas of image to go different places-->
+  <img src="/images/house.jpg" usemap="#NavMap" border="0" />
+
+  
+  <map name="NavMap"> <!--todo figure this out later-->
+    <!--<area shape="rect" coords=”0,0,99,30” href="mainpage.html" alt="Home" title="Home" />-->
+    <!--<area shape="rect" coords="106,5,103,230" href="family.html" alt="Family" title="My Family" />-->
+  </map>
+
+
+</body>
+</html>
